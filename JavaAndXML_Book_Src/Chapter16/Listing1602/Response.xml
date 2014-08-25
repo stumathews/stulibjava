@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+   <Body>
+      <businessList generic="1.0" xmlns="urn:uddi-org:api"   
+      operator="www.ibm.com/services/uddi" 
+      truncated="false">
+         <businessInfos>
+            <businessInfo businessKey=
+            "0FB2B330-00D2-11D6-8C49-0004AC49CC1E">
+               <name>Computer Hardware</name>
+               <description xml:lang="en">Real Time 
+               Procurement of Computer Hardware via Internet
+               </description>
+               <serviceInfos/>
+            </businessInfo>
+            <businessInfo businessKey=
+            "29064E10-36C3-11D6-83CD-000C0E00ACDD">
+               <name>ComputersToYou</name>
+               <description xml:lang="en"/>
+               <serviceInfos>
+                  <serviceInfo serviceKey=
+                  "348B5E00-36CE-11D6-83CD-000C0E00ACDD" 
+                  businessKey=
+                  "29064E10-36C3-11D6-83CD-000C0E00ACDD">
+                     <name>DomainRegistrationService</name>
+                  </serviceInfo>
+                  <serviceInfo serviceKey=
+                  "9C1A9190-3795-11D6-83CD-000C0E00ACDD" 
+                  businessKey=
+                  "29064E10-36C3-11D6-83CD-000C0E00ACDD">
+                     <name>DomainRegistrationQueriesService</name>
+                  </serviceInfo>
+               </serviceInfos>
+            </businessInfo>
+            <businessInfo businessKey="5A9136D0-DCC2-11D5-9094-0004AC49CC1E">
+               <name>computer</name>
+               <description xml:lang="zh">??????</description>
+               <serviceInfos>
+                  <serviceInfo serviceKey="87C5D380-DCC3-11D5-9094-0004AC49CC1E" businessKey="5A9136D0-DCC2-11D5-9094-0004AC49CC1E">
+                     <name>PC</name>
+                  </serviceInfo>
+               </serviceInfos>
+            </businessInfo>
+         </businessInfos>
+      </businessList>
+   </Body>
+</Envelope>

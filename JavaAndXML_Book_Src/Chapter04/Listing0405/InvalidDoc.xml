@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<!DOCTYPE Greeting SYSTEM "InvalidDoc.dtd">
+<!-- InvalidDoc.xml -->
+
+<Greeting>
+   Hello world!
+   <Question>      <!-- No Question element in the DTD -->
+      How are you?
+   </Question>   
+</Greeting>

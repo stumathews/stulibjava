@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="AnnoyingBlink.xsl"?>
+<!-- Birthday.xml -->
+
+<Birthday>
+   <?debug FirstLine.log ?>
+   <Line>Happy Birthday!</Line>
+   
+   <?debug SecondLine.log ?>   
+   <Line>Wow! You're really that old?</Line>
+</Birthday>

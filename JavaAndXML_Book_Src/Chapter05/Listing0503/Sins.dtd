@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sins.dtd -->
+
+<!ELEMENT MyThreeSins (Sin+)>
+<!ELEMENT Sin (#PCDATA)>
+<!ATTLIST Sin rank CDATA #IMPLIED>

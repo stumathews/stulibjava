@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyThreeSins SYSTEM "Sins.dtd">
+<!-- MyThreeSins.xml -->
+
+<MyThreeSins>
+   <Sin rank="favorite">sloth</Sin>
+   <Sin>gluttony</Sin>
+   <Sin> Writing non-portable code </Sin>
+</MyThreeSins>

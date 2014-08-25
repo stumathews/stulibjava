@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Chapter.xml -->
+
+<Chapter 
+      number="13" 
+      title="Viewing XML Data on the Web">
+      
+   <Section title="Going from XML to HTML">
+      <Subsection title=
+         "An XML document without a stylesheet"/>
+      <Subsection title=
+         "Applying a stylesheet to create HTML code"/>
+   </Section>
+   
+   <Section title="Serving Up Your XML Data">
+      <Subsection title=
+         "Applying a stylesheet with Internet Explorer"/>
+      <Subsection title=
+         "Getting the server to do the work">         
+         <Subsubsection>Writing a servlet</Subsubsection>
+         <Subsubsection>Getting a server</Subsubsection>
+         <Subsubsection>
+            Putting your files on the server
+         </Subsubsection>
+         <Subsubsection>
+            Visiting your Web site
+         </Subsubsection>
+         <Subsubsection>Yet another trick</Subsubsection>
+      </Subsection>      
+   </Section>
+      
+</Chapter>

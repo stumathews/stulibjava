@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<definitions name="StockQuoteService" 
+   targetNamespace="http://stock.org/wsdl" 
+   xmlns:tns="http://stock.org/wsdl" 
+   xmlns="http://schemas.xmlsoap.org/wsdl/" 
+   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   
+   <types/>
+   
+   <message name="getQuote">
+      <part name="String_1" type="xsd:string"/>
+   </message>
+   <message name="getQuoteResponse">
+      <part name="result" type="xsd:double"/>
+   </message>
+   <message name="getSymbol">
+      <part name="String_1" type="xsd:string"/>
+   </message>
+   <message name="getSymbolResponse">
+      <part name="result" type="xsd:string"/>
+   </message>
+   
+   <portType name="StockIFPort">
+      <operation name="getQuote">
+         <input message="tns:getQuote"/>
+         <output message="tns:getQuoteResponse"/>
+      </operation>
+      <operation name="getSymbol">
+         <input message="tns:getSymbol"/>
+         <output message="tns:getSymbolResponse"/>
+      </operation>
+   </portType>
+
+   <binding name="StockIFBinding" type="tns:StockIFPort">
+      <operation name="getQuote">
+         <input>
+            <soap:body encodingStyle=
+               "http://schemas.xmlsoap.org/soap/encoding/"
+               use="encoded" 
+               namespace="http://stock.org/wsdl"/>
+         </input>
+         <output>
+            <soap:body encodingStyle=
+               "http://schemas.xmlsoap.org/soap/encoding/" 
+               use="encoded" 
+               namespace="http://stock.org/wsdl"/>
+         </output>
+         <soap:operation soapAction=""/>
+      </operation>
+      <operation name="getSymbol">
+         <input>
+            <soap:body encodingStyle=
+               "http://schemas.xmlsoap.org/soap/encoding/" 
+               use="encoded" 
+               namespace="http://stock.org/wsdl"/>
+         </input>
+         <output>
+            <soap:body encodingStyle=
+               "http://schemas.xmlsoap.org/soap/encoding/"
+               use="encoded" 
+               namespace="http://stock.org/wsdl"/>
+         </output>
+         <soap:operation soapAction=""/>
+      </operation>
+      <soap:binding transport=
+         "http://schemas.xmlsoap.org/soap/http" 
+         style="rpc"/>
+   </binding>
+   
+   <service name="StockQuote">
+      <port name="StockIFPort" binding="tns:StockIFBinding">
+         <soap:address location=
+   "http://localhost:8080/jaxrpc-stock/jaxrpc/StockIFPort"/>
+      </port>
+   </service>
+    
+</definitions>

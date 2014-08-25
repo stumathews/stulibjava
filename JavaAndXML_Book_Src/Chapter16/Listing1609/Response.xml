@@ -1,0 +1,15 @@
+<soap-env:Envelope xmlns:soap-env=
+      "http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Header/>
+   <soap-env:Body>
+      <businessList xmlns="urn:uddi-org:api" generic="1.0">
+         <businessInfos>
+            <businessInfo businessKey="000A00-A000">
+               <name>
+                  Jennie's Turing Machine Repair Service
+               </name>
+            </businessInfo>
+         </businessInfos>
+      </businessList>
+   </soap-env:Body>
+</soap-env:Envelope>

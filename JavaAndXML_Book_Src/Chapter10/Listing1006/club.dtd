@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- club.dtd -->
+
+<!ELEMENT AnchovyLoversClub (Member)>
+<!ELEMENT Member (Standing)>
+<!ATTLIST Member firstname CDATA #REQUIRED>
+<!ELEMENT Standing (#PCDATA)>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyThreeSins SYSTEM "Sins.dtd">
+<!-- InvalidSins.xml -->
+
+<MyThreeSins>
+   <Sin rank="favorite">sloth</Sin>
+   <Sin>gluttony</Sin>
+   <Sin>envy</Sin>
+   <Vice> Writing non-portable code </Vice>
+</MyThreeSins>

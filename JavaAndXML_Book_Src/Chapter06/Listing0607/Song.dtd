@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Song.dtd -->
+
+<!ENTITY Largo "4000">
+<!ENTITY Andante "3000">
+<!ENTITY Moderato "2000">
+<!ENTITY Allegro "1000">
+
+<!ELEMENT song (measure*)>
+<!ATTLIST song tempo CDATA "&Moderato;">
+
+<!ENTITY sixteenth "0.0625">
+<!ENTITY eighth "0.125">
+<!ENTITY quarter "0.25">
+<!ENTITY half "0.5">
+<!ENTITY whole "1.0">
+
+<!ELEMENT measure (beat*)>
+<!ATTLIST measure beatlength CDATA "&quarter;">
+
+<!ELEMENT beat (note*)>
+
+<!ELEMENT note EMPTY>
+<!ATTLIST note
+   pitch CDATA #REQUIRED
+   octave CDATA "0"
+   velocity CDATA #IMPLIED
+   duration CDATA "&quarter;"
+   dotted CDATA "false"
+>
+
+<!ENTITY A "57">
+<!ENTITY Asharp "58">
+<!ENTITY Bflat "58">
+<!ENTITY B "59">
+<!ENTITY C "60">
+<!ENTITY Csharp "61">
+<!ENTITY Dflat "61">
+<!ENTITY D "62">
+<!ENTITY Dsharp "63">
+<!ENTITY Eflat "63">
+<!ENTITY E "64">
+<!ENTITY F "65">
+<!ENTITY Fsharp "66">
+<!ENTITY Fflat "66">
+<!ENTITY G "67">
+<!ENTITY Gsharp "68">
+<!ENTITY Aflat "68">
+
+<!ENTITY piano "45"> 
+<!ENTITY forte "120">

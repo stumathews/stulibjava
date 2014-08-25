@@ -1,0 +1,9 @@
+<soap-env:Envelope xmlns:soap-env=
+      "http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Header/>
+   <soap-env:Body>
+      <find_business xmlns="urn:uddi-org:api" generic="1.0">
+         <name>Computer</name>
+      </find_business>
+   </soap-env:Body>
+</soap-env:Envelope>

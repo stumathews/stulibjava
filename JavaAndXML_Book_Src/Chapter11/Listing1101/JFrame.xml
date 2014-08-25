@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- JFrame.xml -->
+
+<JFrame>
+   <JPanel Region="North" Layout="java.awt.BorderLayout">
+      <JPanel Region="West">
+         <JButton Text="Copy"/>
+         <JButton Text="Cut"/>
+         <JButton Text="Paste"/>
+      </JPanel>
+      <JPanel Region="East">
+         <JButton Text="Help"/>
+      </JPanel>
+   </JPanel>
+   <JPanel Region="Center" Layout="java.awt.GridLayout">
+      <JTextArea Rows="10" Columns="40" 
+         Text="Java and XML For Dummies"/>
+   </JPanel>
+   <JPanel Region="South">
+      <JLabel Text="Status:"/>
+   </JPanel>
+</JFrame>

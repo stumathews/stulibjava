@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv:Honeymooners SYSTEM "tv.dtd">
+<!-- Honeymooners.xml -->
+
+<?debug Errors.log ?>
+
+<tv:Honeymooners xmlns:tv="http://www.burd.org/ns/tv/1.0">
+   <tv:Family surname="Kramden"/>
+   <tv:Family surname="Norton"/>
+</tv:Honeymooners>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE CatThoughts 
+[
+   <!ELEMENT CatThoughts (Image, Thought+)>
+   <!ATTLIST CatThoughts frequency CDATA #REQUIRED>
+   
+   <!NOTATION JPEG SYSTEM "image/jpeg">
+   <!ENTITY CuteCat SYSTEM "weelie.jpg" NDATA JPEG>
+   <!ELEMENT Image EMPTY>
+   <!ATTLIST Image source ENTITY #REQUIRED>
+
+   <!ELEMENT Thought (#PCDATA)>
+   <!ENTITY meow "Feed me">
+]>
+
+<?xml-stylesheet type="text/xsl" href="ThoughtFormat.xsl"?>
+<!-- CatThoughts.xml -->
+
+<CatThoughts frequency="high">
+   <Image source="CuteCat" />
+   <Thought>Eating</Thought>
+   <Thought>Grooming</Thought>
+   <Thought>Hunting</Thought>
+   <Thought>Napping</Thought>
+   <Thought>&meow;</Thought>
+   <Thought><![CDATA[<nothing>]]></Thought> 
+</CatThoughts>

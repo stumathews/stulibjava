@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Nightmare.xjs -->
+
+<xml-java-binding-schema version="1.0-ea">
+   <element name="Nightmare" type="class" root="true"/>
+</xml-java-binding-schema>

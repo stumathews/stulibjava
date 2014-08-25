@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!-- config.xml (client version) -->
+
+<configuration xmlns=
+      "http://java.sun.com/jax-rpc-ri/xrpcc-config">
+      
+   <wsdl name="StockQuoteService"   
+         location="StockQuoteService.wsdl"   
+         packageName="stock">    
+   </wsdl>  
+   
+</configuration>

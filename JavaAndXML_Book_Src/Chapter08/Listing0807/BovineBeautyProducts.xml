@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ThoughtFormat.xsl"?>
+
+<!--Author: H.Ritter-->
+<BovineBeautyProducts customerResponse="Moo">
+<Item>Moose-cara</Item>
+<Item>Cowlogne</Item>
+<Item>Hoof Polish</Item>
+</BovineBeautyProducts>

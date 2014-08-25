@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><System 
+id="Solar System"><Planet id="Mercury" /><Planet id="Venus" 
+/><Planet id="Earth"><Moon id="Moon" /></Planet><Planet 
+id="Mars"><Moon id="Phobos" /><Moon id="Deimos" /></Planet>
+<Planet id="Jupiter" /><Planet id="Saturn" /><Planet 
+id="Uranus" /><Planet id="Neptune" /><Planet id="Pluto" />
+</System>

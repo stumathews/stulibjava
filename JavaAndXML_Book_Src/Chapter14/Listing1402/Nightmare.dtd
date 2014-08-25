@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Nightmare.dtd -->
+
+<!ELEMENT Nightmare EMPTY>
+<!ATTLIST Nightmare subject CDATA #REQUIRED
+                    severity CDATA #REQUIRED>

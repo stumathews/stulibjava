@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Salesperson SYSTEM "Salesperson.dtd">
+<!-- Salesperson.xml -->
+
+<Salesperson fullName="Barry Burd">
+   <Total>1130.00</Total>
+  
+   <Sale>
+      <ItemName>Widget</ItemName>
+      <UnitCost>30.00</UnitCost>
+      <Quantity>2</Quantity>
+   </Sale>
+  
+   <Sale>
+      <ItemName>Thingamabob</ItemName>
+      <UnitCost>100.00</UnitCost>
+      <Quantity>1</Quantity>
+   </Sale>
+  
+   <Sale>
+      <ItemName>Doohickey</ItemName>
+      <UnitCost>23.00</UnitCost>
+      <Quantity>5</Quantity>
+   </Sale>  
+</Salesperson>

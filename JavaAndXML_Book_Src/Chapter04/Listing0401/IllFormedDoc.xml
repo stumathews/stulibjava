@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- IllFormedDoc.xml -->
+
+<Greeting>
+   Hello world!
+   <Question>
+      How are you?
+   <Question>  <!-- Oh, no! This start tag
+                    should be an end tag!  --> 
+</Greeting>

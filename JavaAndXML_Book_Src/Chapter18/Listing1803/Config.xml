@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml (server version) -->
+
+<configuration
+   xmlns="http://java.sun.com/jax-rpc-ri/xrpcc-config">
+   
+   <rmi name="StockQuoteService"
+      targetNamespace="http://stock.org/wsdl"
+      typeNamespace="http://stock.org/types">
+      
+      <service name="StockQuote" packageName="stock">      
+         <interface name="stock.StockIFPort"
+            servantName="stock.StockImpl"/>
+      </service>
+   </rmi>
+   
+</configuration>

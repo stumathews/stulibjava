@@ -1,0 +1,14 @@
+<!-- GOURMET_FOODS.xml -->
+
+<GOURMET_FOODS 
+ xmlns="http://www.burd.org/ns/foods/1.0" 
+ xmlns:health="http://www.burd.org/ns/health/1.0">
+      
+   <FOOD name="PhillyCheeseSteak">
+      <INGREDIENT content:grease="super" 
+       xmlns:content="http://www.burd.org/ns/content/1.0"/>
+       
+      <health:CALORIES>2530</health:CALORIES>
+   </FOOD>
+   
+</GOURMET_FOODS>

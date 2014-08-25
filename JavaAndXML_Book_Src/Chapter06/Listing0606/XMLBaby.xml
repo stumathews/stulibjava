@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE song SYSTEM "song.dtd">
+
+<song tempo="&Andante;">
+   <measure beatlength="&eighth;">
+      <beat/><beat/><beat/><beat/><beat/>      
+      
+      <beat><!-- My -->
+         <note pitch="&Eflat;" duration="&eighth;"/>
+      </beat>
+      
+      <beat><!-- screen's -->
+         <note pitch="&Eflat;" duration="&eighth;"/>
+      </beat>
+      
+      <beat><!-- a -->
+         <note pitch="&C;" duration="&eighth;"/>
+      </beat>
+   </measure>
+   
+   <measure beatlength="&eighth;">      
+      <beat><!-- free- -->
+         <note pitch="&Eflat;" velocity="&forte;" 
+                               duration="&eighth;"/>
+         <note pitch="&C;" octave="-1" 
+               velocity="&piano;" duration="&quarter;"/>
+         <note pitch="&G;" octave="-1" 
+               velocity="&piano;" duration="&quarter;"/>
+      </beat>
+      <beat><!-- zin' -->
+         <note pitch="&Eflat;" duration="&eighth;"/>
+      </beat>
+      
+      <beat><!-- up -->
+         <note pitch="&Eflat;" duration="&eighth;"/>
+         <note pitch="&A;" velocity="&piano;"/>
+      </beat>
+      <beat><!-- ba- -->
+         <note pitch="&Eflat;" duration="&eighth;"/>
+      </beat>
+      
+      <beat>
+         <note pitch="&Bflat;" velocity="&piano;"/>
+      </beat>
+      <beat><!-- by -->
+         <note pitch="&C;" duration="&half;"/>
+      </beat>
+      
+      <beat>
+         <note pitch="&A;" velocity="&piano;"/>         
+      </beat>      
+      <beat/>      
+   </measure>
+   
+   <measure beatlength="&sixteenth;">
+      <beat>
+         <note pitch="&C;" octave="-1" velocity="&piano;"/>
+         <note pitch="&G;" octave="-1" velocity="&piano;"/>
+      </beat>
+      <beat/>            
+      <beat><!-- but -->
+         <note pitch="&F;" duration="&sixteenth;"/>
+      </beat>      
+      <beat><!-- my -->
+         <note pitch="&F;" duration="&sixteenth;"/>
+      </beat>      
+      
+      <beat><!-- heart's -->
+         <note pitch="&F;" velocity="&forte;"
+                           duration="&eighth;"/>         
+         <note pitch="&A;" velocity="&piano;"/>
+      </beat>
+      <beat/>      
+      <beat><!-- X -->
+         <note pitch="&G;" duration="&sixteenth;"/>
+      </beat>
+      <beat><!-- M -->
+         <note pitch="&F;" duration="&sixteenth;"/>
+      </beat>
+      
+      <beat><!-- L- -->
+         <note pitch="&Eflat;" velocity="&forte;" 
+                               duration="&eighth;"/>               
+         <note pitch="&Bflat;" velocity="&piano;"/>
+      </beat>
+      <beat/>     
+      <beat><!-- ting -->
+         <note pitch="&C;" duration="&eighth;"/>
+      </beat>
+      <beat/>      
+      
+      <beat><!-- for -->
+         <note pitch="&Bflat;" duration="&eighth;"/>
+      </beat>  
+      <beat/>          
+      <beat><!-- you. -->
+         <note pitch="&C;" duration="&half;"/>
+      </beat>
+      <beat/>      
+   </measure>
+      
+</song>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Salesperson.dtd -->
+
+<!ELEMENT Salesperson (Total, Sale*)>
+<!ATTLIST Salesperson fullName CDATA #REQUIRED>
+
+<!ELEMENT Total (#PCDATA)>
+
+<!ELEMENT Sale (ItemName, UnitCost, Quantity)>
+
+<!ELEMENT ItemName (#PCDATA)>
+<!ELEMENT UnitCost (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>

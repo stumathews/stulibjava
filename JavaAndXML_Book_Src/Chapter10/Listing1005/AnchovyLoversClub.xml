@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AnchovyLoversClub SYSTEM "club.dtd">
+<!-- AnchovyLoversClub.xml -->
+
+<AnchovyLoversClub>
+   <Member firstname="Herbert">
+   <?Reminder "Unseat Herbert"?>
+      <Standing>
+         Founder, President, Secretary, Publicity Manager
+      </Standing>
+   </Member>
+</AnchovyLoversClub>

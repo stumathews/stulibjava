@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- tv.dtd -->
+
+<!ELEMENT tv:Honeymooners (tv:Family+)>
+<!ATTLIST tv:Honeymooners xmlns:tv CDATA #REQUIRED>
+
+<!ELEMENT tv:Family EMPTY>
+<!ATTLIST tv:Family surname CDATA #REQUIRED>

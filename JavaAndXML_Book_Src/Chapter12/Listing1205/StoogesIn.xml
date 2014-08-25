@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- StoogesIn.xml -->
+
+<StoogesIn>
+   <StoogeIn>Moe</StoogeIn>
+   <StoogeIn>Larry</StoogeIn>
+   <StoogeIn>(other)</StoogeIn>
+</StoogesIn>
