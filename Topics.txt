@@ -1,0 +1,7 @@
+JAX-RPC
+JAXR (Working with xml registries)
+JAXM(create/send/receive SOAP messages)
+JAXB(XML to class ie marshalling)
+XML( transform XML)
+JAXP (SAX and DOM XML parsers)
+JDOM( java optimised DOM)
